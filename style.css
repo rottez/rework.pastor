@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    background: #333;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#bg_image{
+    position: absolute;
+    background: url(img/pastor22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 375px;
+    z-index: -1;
+    opacity: 0.4;
+}
+.wrapper{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+/* section a */
+.section_a{
+    line-height: 1;
+    margin-top: 0;
+    height: 360px;
+    color: #db6f11;
+}
+.section_a ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+}
+.section_a li{
+    display:inline;
+    margin:0;
+}
+.section_a a{
+    text-decoration: none;
+    color: #db6f11;
+    padding-right: .5em;
+}
+#mail_top{
+    float:right;
+}
+.section_a h1{
+    margin-top: 130px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.section_a h2{
+    padding-top: 3em;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+/* section c */
+.section_c{
+    padding: 1em 0 2em 0;
+    background-color: lightgrey;
+    color: #465977;
+    /* border-bottom: 1px solid grey; */
+}
+
+/* section b */
+.section_b{
+    background-color: white;
+    padding: 2em 0;
+    color: #465977;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.content{
+    padding: 1em;
+    border-left: .5px solid lightgrey;
+    border-right: .5px solid lightgrey;
+}
+.content img{
+    border: .5px solid lightgrey;
+    padding: 1em;
+    width: 30%;
+    height: auto;
+    font-size: 1.5em;
+}
+.section_d{
+    /* border-top: .5px solid #333; */
+    background-color: lightgrey;
+    color: #465977;
+}
+.section_d h1{
+    margin-top: 0;
+    padding-top: 1em;
+}
+.gmaps{
+    padding-bottom: 2em;
+}
+iframe{
+    width:100%;
+    height:300px; 
+}
+footer{
+    color: #db6f11;
+}
+footer ul{
+    padding: 0;
+    list-style-type: none;
+}
+footer li{
+    list-style-type:none;
+    display: inline;
+    padding-bottom: .2em;
+}
+footer p{
+    font-size: .7em;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+}
+footer #prati{
+    padding: 0;
+    font-size: 1em;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.footer2{
+    
+}
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    .wrapper{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .section_a h1{
+        margin-top: 100px;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    footer li{
+        list-style-type:none;
+        display: inline;
+        padding-bottom: .2em;
+    }
+    .content{
+        padding: 1em;
+        border-left: 0px solid lightgrey;
+        border-right: 0px solid lightgrey;
+    }
+    #mod{
+        border-right: .5px solid lightgrey;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 501px) {
+        .wrapper{
+            width: 90%;
+            height: auto;
+            margin: auto;
+        }
+        footer li{
+            list-style-type:none;
+            display: inline;
+            padding-bottom: .2em;
+        }
+        .content{
+            padding: 1em;
+            border-left: 0px solid lightgrey;
+            border-right: 0px solid lightgrey;
+        }
+        #mod{
+            border-right: .5px solid lightgrey;
+        }
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .wrapper{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    footer li{
+        list-style-type:none;
+        display: inline;
+        padding-bottom: .2em;
+    }
+    .content{
+        padding: 1em;
+        border-left: 0px solid lightgrey;
+        border-right: 0px solid lightgrey;
+    }
+    #mod{
+        border-right: .5px solid lightgrey;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 1001px) {
+    .wrapper{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    footer li{
+        list-style-type:none;
+        display: inline;
+        padding-bottom: .2em;
+    }
+    .content{
+        padding: 1em;
+        border-left: 0px solid lightgrey;
+        border-right: 0px solid lightgrey;
+    }
+    #mod{
+        border-right: .5px solid lightgrey;
+    }
+}

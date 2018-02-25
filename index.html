@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- bg image -->
+<div id="bg_image"></div>
+    <!-- wrapper to keep everyting in takt --> 
+    <div class="wrapper">
+<!-- section a -->
+        <div class="section_a">
+            <ul id="scroll">
+                <li><a href="#">Kontakt</a></li>
+                <!-- <li><a id="mail_top" href="#">pastor@gmail.com</a></li> -->
+            </ul>
+            <h1>Servis Automatskih Menjaca<br>pastor</h1>
+            <h2>Specijalizovan servis za popravke,remonta i odrzavanja CVT-multitronic i DSG menjaca</h2>
+        </div>
+    </div>
+<!-- section c -->
+    <div class="section_c">
+        <div class="wrapper">
+        <h1>Detaljnije O Uslugama</h1>
+        <p>Glavni profil servisa je popravka automatskih menjaca.<br>Servis automatskih menjaca je usko specijalizovani servis za popravku automatskih menjaca svih modela putnickih automobila. </p>
+        </div>
+    </div>
+<!-- section b -->
+    <div class="section_b">
+        <div class="wrapper">
+    <!-- grid style --> 
+        <div class="grid">
+            <div id="mod" class="content">
+               <img src="img/wrench.png">
+               <h1>Popravak Menjaca</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, rem!</p>
+            </div>
+            <div class="content">
+                <img src="img/flat.png">
+                <h1>Remont Menjaca</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, rem!</p>
+            </div>
+            <div id="mod" class="content">
+                <img src="img/oil.png">
+                <h1>Servis Menjaca</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, rem!</p>
+            </div>
+            <div class="content">
+                <img src="img/gloves.png">
+                <h1>Ciscenje Menjaca</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, dolore.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- section d -->
+    <div class="section_d">
+        <div class="wrapper">
+            <h1>Kontakt</h1>
+            <p>Mob: 063/xx-xx-xx<br>E-mail: pastor@gmail.com</p>
+            <div class="gmaps">
+                <iframe frameBorder="0" src="https://www.google.com/maps/embed/v1/place?q=Temerin%2CPap%20Pavla%20143&key=AIzaSyBtXth2wewXNhHijxyhMH3PGV9LMaNyfpw" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+<!-- footer -->
+<footer>
+    <div class="wrapper">
+    
+       <div>
+        <ul>
+            <li>Temerin |</li>
+            <li>Pap Pavla 143 |</li>
+            <li>063/xxx-xx-xx |</li>
+            <li>pastor@gmail.com </li>        
+        </ul>
+       </div>
+       <div class="footer2">
+        <p id="prati">Pratite nas!<p>
+        <a href="https://www.facebook.com/servispastor/" target=_blank><img src="img/facebook30x30.png"></a>
+       </div>
+    </div>
+    <p>&copy; Copyright 2018 ATS Pastor</p>
+    </div>
+</footer>
+<script>
+    $("#scroll").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".section_d").offset().top},
+        'slow');
+});
+</script>    
+</body>
+</html>
